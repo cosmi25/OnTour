@@ -1,0 +1,79 @@
+
+#body{
+    background-color: #fff;
+}
+#main-container{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.hero{
+    height: 500px;
+    background-image: url(https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    filter: grayscale(65%);
+    padding: 0;
+}
+#text-holder{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+#title{
+    text-align: center;
+    opacity: 0;
+}
+#headline{
+    text-align: center;
+    opacity: 0;
+}
+.line{
+width: 65%;
+height: 1px;
+position: absolute;
+right: 200;
+top: 50%;
+background-color: #efefef;
+overflow: hidden; 
+}
+
+#hrLine {
+    /* border: 1px solid #fff; */
+    width: 35%;
+    height: 1px;
+    background-color: #fff;
+}
+#searchbars{
+    border: none;
+}
+#form-control{
+margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    
+}
+#submit-id{
+    background-color: rgb(90, 90, 90);
+    color: #fff;
+    border: none;
+}
+#artist-label{
+    justify-content: center;
+}
+#location-label{
+    justify-content: center;
+}
+#results{
+    border: none;
+    
+}
+#foot {
+    background: grey;
+    
+}
